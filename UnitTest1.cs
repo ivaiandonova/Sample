@@ -5,7 +5,8 @@ namespace Sample
     [TestClass]
     public class UnitTest1
     {
-        [TestMethod]
+        [TestMethod,
+        TestCategory("Category1")]
         public void TestMethod1()
         {
         }
